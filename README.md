@@ -1,63 +1,32 @@
 # final_task
 task
-
-.first 
-{
-text-align: center;
-font-size: 30px;
-text-transform: capitalize;
-color: rgb(233, 230, 230);
- padding: 100px 0px 0px 0px; 
- background-color: rgba(0, 0, 0, 0.5);height: 600px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.sec 
-{
-    text-align: center;
-    font-size: 20px;
-    text-transform: capitalize;
-    color: rgb(233, 230, 230);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.div
- {
-    background-image:url(mosque.jpg) ;
-    background-size: cover;
-    background-position: center;
-    background-color:rgba(0, 0, 0, 0.5);
-    background-repeat: no-repeat;
-    height: 700px; 
-    display: block;
-   
-}
-.third a
-{
-    text-align: center;
-    text-decoration: none;
-    color:rgb(255, 245, 240);
-    border: 1px solid rgb(0, 0, 0);
-    padding:5px 25px; 
-    font-size: 20px;
-    text-transform: uppercase;
-    border-radius: 20px;
-    display: inline;
-    border-color: rgb(255, 115, 0);
-    background-color: rgb(165, 97, 42);
-    margin:0px 0px 0px 40px;
-
-}
-.thir a
-{
-    text-align: center;
-    text-decoration: none;
-    color:rgb(156, 61, 13);
-    border: 1px solid rgb(0, 0, 0);
-     padding:5px 25px; 
-    font-size: 20px;
-    text-transform:lowercase;
-    border-radius: 20px;
-    display: inline;
-    border-color: rgb(158, 82, 6);
-    background-color: rgb(245, 243, 241);
+<!DOCTYPE html>
+<html lang="en">
     
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+   
+
+
+<body>
+ <link rel="stylesheet" href="css/style.css">
+    <div class="div">
+        <div class="first">
+            <h3> a'mr ibn al-a'as mosque</h3>
+            <p class="sec"> old cairo, cairo governorate </p>
+        <span class="third">
+            <a href="#">sign up </a>
+        </span>
+
+        <span class="thir">
+            <a href="#">contact us </a>
+        </span>
+</div>
+    </div>
+</body>
+
+</html>
